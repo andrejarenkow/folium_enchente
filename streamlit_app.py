@@ -100,4 +100,4 @@ imagem.add_to(m)
 folium.LayerControl().add_to(m)
 
 
-st_folium(m, width=1200, height = 1000, returned_objects=[])
+st_folium(m, width=1200, height = 800, returned_objects=[])
