@@ -3,7 +3,7 @@ from streamlit_folium import st_folium
 import streamlit as st
 
 # Configuração da página
-st.set_page_config(page_title="Enchentes RS", layout="wide", page_icon = '🌩️')
+st.set_page_config(page_title="Enchentes RS", layout="centered", page_icon = '🌩️')
 
 # Título do aplicativo
 st.subheader("Visualização da enchente no RS por imagem de Satélite")
@@ -100,4 +100,4 @@ imagem.add_to(m)
 folium.LayerControl().add_to(m)
 
 
-st_folium(m, width=800, height = 800, returned_objects=[])
+st_folium(m, width=300, height = 400, returned_objects=[])
