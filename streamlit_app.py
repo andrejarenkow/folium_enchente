@@ -24,7 +24,7 @@ center_lon = (min_lon + max_lon) / 2
 
 center_point = [center_lat, center_lon]
 
-m = folium.Map(center_point, zoom_start=11, control = False)
+m = folium.Map(center_point, zoom_start=12, control = False)
 
 # Adicionar a camada openstreetmap de tile
 folium.TileLayer('openstreetmap', control = False).add_to(m)
