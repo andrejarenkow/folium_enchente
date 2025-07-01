@@ -28,7 +28,7 @@ folium.TileLayer('openstreetmap', control = False).add_to(m)
 
 
 imagem_1 = folium.raster_layers.ImageOverlay(
-    image="/content/2025-06-30-00_00_2025-06-30-23_59_Sentinel-2_L2A_SWIR (1).jpg",
+    image="2025-06-30-00_00_2025-06-30-23_59_Sentinel-2_L2A_SWIR (1).jpg",
     name="30 de junho de 2025",
     bounds=bounds,
     opacity=0.8,
@@ -44,7 +44,7 @@ imagem_1 = folium.raster_layers.ImageOverlay(
 imagem_1.add_to(m)
 
 imagem_2 = folium.raster_layers.ImageOverlay(
-    image="/content/2025-06-25-00_00_2025-06-25-23_59_Sentinel-2_L2A_SWIR (2).jpg",
+    image="2025-06-25-00_00_2025-06-25-23_59_Sentinel-2_L2A_SWIR (2).jpg",
     name="25 de junho de 2025",
     bounds=bounds,
     opacity=0.8,
@@ -60,7 +60,7 @@ imagem_2 = folium.raster_layers.ImageOverlay(
 imagem_2.add_to(m)
 
 imagem = folium.raster_layers.ImageOverlay(
-    image="/content/2025-05-11-00_00_2025-05-11-23_59_Sentinel-2_L2A_SWIR.jpg",
+    image="2025-05-11-00_00_2025-05-11-23_59_Sentinel-2_L2A_SWIR.jpg",
     name="11 de maio de 2025",
     bounds=bounds,
     opacity=0.8,
@@ -77,7 +77,7 @@ imagem.add_to(m)
 
 
 imagem = folium.raster_layers.ImageOverlay(
-    image="/content/2024-05-06-00_00_2024-05-06-23_59_Sentinel-2_L2A_SWIR.jpg",
+    image="2024-05-06-00_00_2024-05-06-23_59_Sentinel-2_L2A_SWIR.jpg",
     name="06 de maio de 2024",
     bounds=bounds,
     opacity=0.8,
