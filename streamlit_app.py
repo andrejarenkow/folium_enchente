@@ -2,6 +2,11 @@ import folium
 from streamlit_folium import st_folium
 import streamlit
 
+# Configuração da página
+st.set_page_config(page_title="Enchentes RS", layout="wide")
+
+# Título do aplicativo
+st.title("Visualização da enchente no RS por imagem de Satélite")
 
 geometry = {"type":"Polygon","coordinates":[[[-53.031349,-30.14869],[-53.031349,-29.973673],[-52.767677,-29.973673],[-52.767677,-30.14869],[-53.031349,-30.14869]]]}
 
